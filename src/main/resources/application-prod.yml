@@ -1,0 +1,8 @@
+spring:
+  profiles: prod
+  datasource:
+    url: jdbc:mysql://rm-uf6i7v4ca9o07ezp2ko.mysql.rds.aliyuncs.com:3306/qny_study?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+    username: qny_db
+    password: Qny061021!@
+logging:
+  config: classpath:logback-prod.xml

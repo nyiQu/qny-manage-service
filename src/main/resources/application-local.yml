@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: local
+  # 连接数据库
+  datasource:
+    url: jdbc:mysql://rm-uf6i7v4ca9o07ezp2ko.mysql.rds.aliyuncs.com:3306/qny_study?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+    username: qny_db
+    password: Qny061021!@
+logging:
+  file:
+    path: springboot.log
+    clean-history-on-start: true
+  pattern:
+    console: ===%d{yyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger -%msg%n
+    file: ===%d{yyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger -%msg%n
